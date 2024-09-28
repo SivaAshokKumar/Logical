@@ -26,6 +26,7 @@ public class ListNode {
              System.out.println(ptr.val);
              ptr = ptr.nxt;
          }
+        System.out.println("RAM");
 
     }
 }
