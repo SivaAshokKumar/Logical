@@ -1,6 +1,7 @@
 package Siva.Java.Practise.Searching;
 
 import Siva.Java.Practise.Sorting_Techniques.BubbleSort;
+import Siva.Java.Practise.Sorting_Techniques.InsertionSort;
 import Siva.Java.Practise.Sorting_Techniques.Selection_Sort;
 
 import java.util.*;
@@ -12,13 +13,17 @@ public class Demo {
       int[] arr2 = {5,6,9,4,8,2};
 /*        BubbleSort.Bubble(arr2);
         System.out.println(Arrays.toString(arr2));*/
-        int target = 9;
+        //LINEAR SEARCH
+       /* int target = 9;
         for (int i = 0; i < arr2.length ; i++) {
             if(arr2[i] == target ){
                 System.out.println(i);
                 return;
             }
         }
+*/
+        InsertionSort.InsertSorting(arr1);
+        System.out.println(Arrays.toString(arr1));
 
       //  Selection_Sort.SelectioAn(arr1);
         //System.out.println(Arrays.toString(arr1));
