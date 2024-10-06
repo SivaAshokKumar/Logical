@@ -17,6 +17,14 @@ public class LinkingList {
         }
     }
 
+    public static void TraversRevers(LinkingList head){
+        LinkingList temp = head;
+         while(temp == null){
+             System.out.println(temp.val);
+             temp = temp.next;
+         }
+    }
+
     public static LinkingList NewNodeAtBegin(LinkingList head, int valtoInsert){
        //Initializing a New Node
         LinkingList newNode  = new LinkingList(valtoInsert);
@@ -96,7 +104,7 @@ public class LinkingList {
         l6.next = null;
 
         //DELETE AT MIDDLE
-        l3 = DetleteATMiddle(l3,0);
+        //l3 = DetleteATMiddle(l3,0);
         //DEletion at End
        //  l1 = DeleterAtEnd(l1);
            //Deletion at Begin
@@ -105,8 +113,8 @@ public class LinkingList {
         //l1 = NewNodeAtBegin(l1, 234);
          //insertAtEnd(l4,4598);
        // l3 = InsertAtMiddle(l3,8888,0);
-       TranversingLinkedList(l1);
-
+      // TranversingLinkedList(l1);
+        TraversRevers(l5);
         /*LinkingList pointer = l1;
         while(pointer != null){
             System.out.println(pointer.val);
