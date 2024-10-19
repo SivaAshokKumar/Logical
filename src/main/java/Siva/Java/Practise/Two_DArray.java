@@ -35,7 +35,7 @@ public class Two_DArray {
         int copyTo = new int[8];*/
 
                 // Declare and initialize a 3D array
-               /* int[][][] array = new int[2][4][2];
+                int[][][] array = new int[2][4][2];
 
                 // Initialize the elements of the 3D array CODE FROM COPILOT
                 for (int i = 0; i < 2; i++) {
@@ -55,7 +55,7 @@ public class Two_DArray {
                         System.out.println();
                     }
                     System.out.println();
-                }*/
+                }
             }
         }
 
