@@ -3,7 +3,7 @@ package Siva.Java.Practise.GeneralACCENTUREPRACTISE;
 import java.util.Arrays;
 
 public class StringPalindrome {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         String s = "Silent";
         char[] sr = s.toCharArray();
        // char[] sj = new char[sr.length-1];
@@ -20,5 +20,5 @@ public class StringPalindrome {
         else {
             System.out.println("This is Not Palindrome");
         }
-    }
+    }*/
 }
