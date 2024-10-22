@@ -13,7 +13,6 @@ public class StringPalindrome {
         }
         String[] sr2 = reverse.toString().split(" ");
         String s2 = "Ram";
-        String[] arr1 = new String[sr2.length];
         System.out.println(Arrays.toString(sr2));
         if(arr1 == sr2){
             System.out.println("This Palindrome word");
